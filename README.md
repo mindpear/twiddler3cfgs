@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains my curated configurations for [Twiddler 3](twiddler.tekgear.com/)
+This repository contains my curated configurations for [Twiddler 3](https://twiddler.tekgear.com/doc/doku.php)
 
 ## Installing a custom cfg
 
