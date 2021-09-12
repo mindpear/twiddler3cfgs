@@ -1,1 +1,1 @@
-![twitter.cfg](chords.png)
+![chords](naviconf_cfvxyz.png)
