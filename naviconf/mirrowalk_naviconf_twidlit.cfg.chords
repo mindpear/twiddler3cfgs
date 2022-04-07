@@ -133,7 +133,9 @@ stickyShiftButton false
 0    ||'- = <Ctrl><Shift>u</Shift></Ctrl>0022<Space> # " (double quote)
 
 0    -,,, = (
+0    -,,- = (
 0    -'', = )
+0    -''- = )
 0    ,,-, = {
 0    ,,|, = {
 0    ''-, = }
