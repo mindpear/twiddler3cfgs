@@ -1,0 +1,169 @@
+mouseSensitivity 100
+keyRepeatDelay 420
+idleLimit 600
+stickyNumButton false
+stickyShiftButton false
+
+# Intentionally left void to a'void unwanted input (I press |-|| a LOT)
+#    |-|| (easiest to press as well as easiest to mis-press)
+
+0    '||| = <Esc>   # think: top-left, as on a regular KB
+0    --|| = <Backspace>
+0    --|- = <Delete>
+0    ---| = <Space>
+0    ---- = <Shift><Space></Shift>
+0    |-|, = <Tab>
+0    |-|- = <Shift><Tab></Shift>
+0    ||', = <ContextMenu>
+#    ;||| = <Enter>  # (conf experim. feat. in tuner)
+
+0    -||| = <Left>
+0    -||- = <Shift><Left></Shift>
+0    -||, = <Home>
+0    --|, = <Shift><Home></Shift>
+0    ||-| = <Right>
+0    ||-- = <Shift><Right></Shift>
+0    ||-, = <End>
+0    |--, = <Shift><End></Shift>
+0    |'|| = <Up>
+0    |'|- = <Shift><Up></Shift>
+0    |'|, = <PageUp>
+0    |,|| = <Down>
+0    |,|- = <Shift><Down></Shift>
+0    |,|, = <PageDown>
+0    |'', = <PrintScreen>
+0    '-|, = <Insert>
+
+0    |||' = 0
+0    ||,' = <F1>
+0    ||'' = 1
+0    |,|' = <F2>
+0    |'|' = 2
+0    |,,' = <F3>
+0    |''' = 3
+0    ,||' = <F4>
+0    '||' = 4
+0    ,|,' = <F5>
+0    '|'' = 5
+0    ,,|' = <F6>
+0    ''|' = 6
+0    ,,,' = <F7>
+0    '''' = 7
+0    -||' = <F8>
+0    |-|' = 8
+0    -|,' = <F9>
+0    |-'' = 9
+0    -'|' = <F10>
+0    -,,' = <F11>
+0    ||-' = <F12>
+
+0    ,,|| = b
+0    ,,|- = B
+0    ,-|| = s
+0    ,-|- = S
+0    ,-|, = $
+0    ,'|| = q
+0    ,'|- = Q
+0    ,|,| = j
+0    ,|,- = J
+0    ,|-| = w
+0    ,|-- = W
+0    ,|'| = u
+0    ,|'- = U
+0    '''| = "u
+0    '''- = "U
+0    -,|| = e
+0    -,|- = E
+0    -'|| = l
+0    -'|- = L
+0    -|,| = d
+0    -|,- = D
+0    -|-| = a
+0    -|-- = A
+0    ,,'| = "a
+0    ,,'- = "A
+0    -|-, = @
+0    -|'| = r
+0    -|'- = R
+0    ',|| = v
+0    ',|- = V
+0    '-|| = i
+0    '-|- = I
+0    ''|| = x
+0    ''|- = X
+0    '|,| = k
+0    '|,- = K
+0    '|-| = c
+0    '|-- = C
+0    '|'| = f
+0    '|'- = F
+0    |,,| = g
+0    |,,- = G
+0    |,-| = h
+0    |,-- = H
+0    |,-, = \#
+0    |,'| = m
+0    |,'- = M
+0    |-,| = n
+0    |-,- = N
+0    |--| = t
+0    |--- = T
+0    |-'| = o
+0    |-'- = O
+0    ,-'| = ~o
+0    ,-'- = ~O
+0    --'| = "o
+0    --'- = "O
+0    |',| = z
+0    |',- = Z
+0    |'-| = y
+0    |'-- = Y
+0    |''| = p
+0    |''- = P
+0    '--- = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett
+0    '-'- = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett
+0    ,--| = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett 
+0    ,||| = ,
+0    ,||- = ;
+0    ,||, = :
+0    ||,| = .
+0    ||,, = !
+0    ||,- = ?
+0    ||'| = <Ctrl><Shift>u</Shift></Ctrl>0027<Space> # ' (single quote)
+0    ||'- = <Ctrl><Shift>u</Shift></Ctrl>0022<Space> # " (double quote)
+
+0    -,,, = (
+0    -'', = )
+0    ,,-, = {
+0    ,,|, = {
+0    ''-, = }
+0    ''|, = }
+0    ,,,, = [
+0    ''', = ]
+0    -,-, = <
+0    -,|, = <
+0    -'-, = >
+0    -'|, = >
+
+0    ,-', = \
+0    |-', = \
+#     |   = |  # Middle finger presses all three (conf experim. feat. in tuner)
+0    '-,, = /
+0    |-,, = /
+0    |,,, = *
+0    |',, = %
+0    ,|,, = +
+0    -|,, = -
+0    --,, = <Ctrl><Shift>u</Shift></Ctrl>2013<Space> # en-dash –
+0    ---, = <Ctrl><Shift>u</Shift></Ctrl>2014<Space> # em-dash —
+0    ,,,| = _
+0    '|,, = =
+0    '||, = =
+0    ,',, = &
+0    ,',| = &
+0    ,-,- = ~
+0    -'-' = ~
+0    -'-- = ^
+0    -'-| = ^
+0    ,-,, = ^
+0    ,-,| = ^
