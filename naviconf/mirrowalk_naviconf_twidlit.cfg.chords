@@ -1,21 +1,30 @@
 mouseSensitivity 100
 keyRepeatDelay 420
 idleLimit 600
-stickyNumButton false
+stickyNumButton true
 stickyShiftButton false
 
 # Intentionally left void to a'void unwanted input (I press |-|| a LOT)
-#    |-|| (easiest to press as well as easiest to mis-press)
+#    |-|| (the easiest to press as well as the easiest to mis-press)
 
+0    '''| = <Enter>
+0    '''- = <Shift><Enter></Shift>
 0    '||| = <Esc>   # think: top-left, as on a regular KB
 0    --|| = <Backspace>
 0    --|- = <Delete>
 0    ---| = <Space>
-0    ---- = <Shift><Space></Shift>
 0    |-|, = <Tab>
 0    |-|- = <Shift><Tab></Shift>
 0    ||', = <ContextMenu>
-#    ;||| = <Enter>  # (conf experim. feat. in tuner)
+N     ,,,| = <Enter>
+N     ,,,- = <Shift><Enter></Shift>
+N     ,||| = <Esc>
+N     --|| = <Backspace>
+N     --|- = <Delete>
+N     ---| = <Space>
+N     |-|' = <Tab>
+N     |-|- = <Shift><Tab></Shift>
+N     ||,' = <ContextMenu>
 
 0    -||| = <Left>
 0    -||- = <Shift><Left></Shift>
@@ -33,6 +42,22 @@ stickyShiftButton false
 0    |,|, = <PageDown>
 0    |'', = <PrintScreen>
 0    '-|, = <Insert>
+N     -||| = <Left>
+N     -||- = <Shift><Left></Shift>
+N     -||' = <Home>
+N     --|' = <Shift><Home></Shift>
+N     ||-| = <Right>
+N     ||-- = <Shift><Right></Shift>
+N     ||-' = <End>
+N     |--' = <Shift><End></Shift>
+N     |,|| = <Up>
+N     |,|- = <Shift><Up></Shift>
+N     |,|' = <PageUp>
+N     |'|| = <Down>
+N     |'|- = <Shift><Down></Shift>
+N     |'|' = <PageDown>
+N     |,,' = <PrintScreen>
+N     ,-|' = <Insert>
 
 0    |||' = 0
 0    ||,' = <F1>
@@ -56,6 +81,28 @@ stickyShiftButton false
 0    -'|' = <F10>
 0    -,,' = <F11>
 0    ||-' = <F12>
+N     |||, = 0
+N     ||', = <F1>
+N     ||,, = 1
+N     |'|, = <F2>
+N     |,|, = 2
+N     |'', = <F3>
+N     |,,, = 3
+N     '||, = <F4>
+N     ,||, = 4
+N     '|', = <F5>
+N     ,|,, = 5
+N     ''|, = <F6>
+N     ,,|, = 6
+N     ''', = <F7>
+N     ,,,, = 7
+N     -||, = <F8>
+N     |-|, = 8
+N     -|', = <F9>
+N     |-,, = 9
+N     -,|, = <F10>
+N     -'', = <F11>
+N     ||-, = <F12>
 
 0    ,,|| = b
 0    ,,|- = B
@@ -70,8 +117,8 @@ stickyShiftButton false
 0    ,|-- = W
 0    ,|'| = u
 0    ,|'- = U
-0    '''| = "u
-0    '''- = "U
+0    ,''| = "u
+0    ,''- = "U
 0    -,|| = e
 0    -,|- = E
 0    -'|| = l
@@ -80,8 +127,8 @@ stickyShiftButton false
 0    -|,- = D
 0    -|-| = a
 0    -|-- = A
-0    ,,'| = "a
-0    ,,'- = "A
+0    ''-| = "a
+0    ''-- = "A
 0    -|-, = @
 0    -|'| = r
 0    -|'- = R
@@ -111,7 +158,9 @@ stickyShiftButton false
 0    |-'| = o
 0    |-'- = O
 0    ,-'| = ~o
+0    '-'| = ~o
 0    ,-'- = ~O
+0    '-'- = ~O
 0    --'| = "o
 0    --'- = "O
 0    |',| = z
@@ -121,8 +170,8 @@ stickyShiftButton false
 0    |''| = p
 0    |''- = P
 0    '--- = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett
-0    '-'- = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett
-0    ,--| = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett 
+0    '--| = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett
+0    ,--| = <Ctrl><Shift>u</Shift></Ctrl>00df<Space> # Kleines sz/Eszett
 0    ,||| = ,
 0    ,||- = ;
 0    ,||, = :
@@ -131,6 +180,82 @@ stickyShiftButton false
 0    ||,- = ?
 0    ||'| = <Ctrl><Shift>u</Shift></Ctrl>0027<Space> # ' (single quote)
 0    ||'- = <Ctrl><Shift>u</Shift></Ctrl>0022<Space> # " (double quote)
+N     ''|| = b
+N     ''|- = B
+N     '-|| = s
+N     '-|- = S
+N     '-|' = $
+N     ',|| = q
+N     ',|- = Q
+N     '|'| = j
+N     '|'- = J
+N     '|-| = w
+N     '|-- = W
+N     '|,| = u
+N     '|,- = U
+N     ',,| = "u
+N     ',,- = "U
+N     -'|| = e
+N     -'|- = E
+N     -,|| = l
+N     -,|- = L
+N     -|'| = d
+N     -|'- = D
+N     -|-| = a
+N     -|-- = A
+N     ,,-| = "a
+N     ,,-- = "A
+N     -|-' = @
+N     -|,| = r
+N     -|,- = R
+N     ,'|| = v
+N     ,'|- = V
+N     ,-|| = i
+N     ,-|- = I
+N     ,,|| = x
+N     ,,|- = X
+N     ,|'| = k
+N     ,|'- = K
+N     ,|-| = c
+N     ,|-- = C
+N     ,|,| = f
+N     ,|,- = F
+N     |''| = g
+N     |''- = G
+N     |'-| = h
+N     |'-- = H
+N     |'-' = \#
+N     |',| = m
+N     |',- = M
+N     |-'| = n
+N     |-'- = N
+N     |--| = t
+N     |--- = T
+N     |-,| = o
+N     |-,- = O
+N     '-,| = ~o
+N     ,-,| = ~o
+N     '-,- = ~O
+N     ,-,- = ~O
+N     --,| = "o
+N     --,- = "O
+N     |,'| = z
+N     |,'- = Z
+N     |,-| = y
+N     |,-- = Y
+N     |,,| = p
+N     |,,- = P
+N     ,--- = <Ctrl>U</Ctrl>00df<Space>
+N     '--| = <Ctrl>U</Ctrl>00df<Space>
+N     ,--| = <Ctrl>U</Ctrl>00df<Space>
+N     '||| = ,
+N     '||- = ;
+N     '||' = :
+N     ||'| = .
+N     ||'' = !
+N     ||'- = ?
+N     ||,| = <Ctrl>U</Ctrl>0027<Space>
+N     ||,- = <Ctrl>U</Ctrl>0022<Space>
 
 0    -,,, = (
 0    -,,- = (
@@ -142,13 +267,29 @@ stickyShiftButton false
 0    ''|, = }
 0    ,,,, = [
 0    ''', = ]
-0    -,-, = <
-0    -,|, = <
+0    -,-, = \<
+0    -,-| = \<
+0    -,|, = \<
 0    -'-, = >
 0    -'|, = >
+N     -''' = (
+N     -''- = (
+N     -,,' = )
+N     -,,- = )
+N     ''-' = {
+N     ''|' = {
+N     ,,-' = }
+N     ,,|' = }
+N     '''' = [
+N     ,,,' = ]
+N     -'-' = \<
+N     -'-| = \<
+N     -'|' = \<
+N     -,-' = >
+N     -,|' = >
 
-0    ,-', = \
-0    |-', = \
+0    ,-', = \\
+0    |-', = \\
 #     |   = |  # Middle finger presses all three (conf experim. feat. in tuner)
 0    '-,, = /
 0    |-,, = /
@@ -163,9 +304,32 @@ stickyShiftButton false
 0    '||, = =
 0    ,',, = &
 0    ,',| = &
+0    ---- = |
 0    ,-,- = ~
 0    -'-' = ~
 0    -'-- = ^
 0    -'-| = ^
 0    ,-,, = ^
 0    ,-,| = ^
+N     '-,' = \\
+N     |-,' = \\
+N     ,-'' = /
+N     |-'' = /
+N     |''' = *
+N     |,'' = %
+N     '|'' = +
+N     -|'' = -
+N     --'' = <Ctrl>U</Ctrl>2013<Space>
+N     ---' = <Ctrl>U</Ctrl>2014<Space>
+N     '''| = _
+N     ,|'' = =
+N     ,||' = =
+N     ','' = &
+N     ','| = &
+N     ---- = |
+N     '-'- = ~
+N     -,-, = ~
+N     -,-- = ^
+N     -,-| = ^
+N     '-'' = ^
+N     '-'| = ^
